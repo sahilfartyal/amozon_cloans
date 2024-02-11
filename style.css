@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+/* headerbox */
+.navbar{
+    background-color: #0f1111;
+    height: 70px;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+/* box1 */
+.logo{
+    width: 160px;
+    height: 45px;
+    padding-top: 17px;
+}
+.amozon_logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 11px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/* box2 */
+.addfirst{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.addsecond{
+    font-size: 1rem;
+    margin-left: 4px;
+}
+.add_icon{
+    display: flex;
+    align-items: center;
+}
+/* box3 */
+.nav_search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 35px;
+
+}
+.nav_search:hover{
+    border: 2px solid rgb(204, 136, 8) ;
+    border-radius: 4px;
+
+}
+.selectsearch{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.inputsearch{
+    width:100%;
+    font-size: 1rem;
+}
+.search_icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgba(243, 176, 8, 0.995);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius:5px ;
+    color: #0f1111;
+}
+/* box4 */
+.sing_in{
+    color: #cccccc;
+    font-size: 0.7rem;
+}
+.Account{
+    background-color: #0f1111;
+    color: white;
+    border: none;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.returns{
+    font-size: 0.75rem;
+    color: #cccccc;
+
+
+}
+/* box5 */
+.orders{
+    font-size: 1.2rem;
+}
+.nav_cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav_cart i{
+    font-size: 1.6rem;
+} 
+/* box6 */
+.panel_all{
+    background-color: #222f3d;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.all_options p{
+    display: inline;
+    margin-left: 18px;
+
+}
+.special{
+    font-size: 0.90rem;
+    font-weight: 800;
+}
+.all_options{
+    font-size: 0.80rem;
+    width: 70%;
+}
+/* heroseection */
+.hero_section{
+    background-color: aqua;
+    background-size: cover;
+    height: 600px;
+}
+.hero_section{
+    background-image: url("heroimage.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.pra_msg{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    width: 80%;
+    margin-bottom: 25px;
+
+
+}
+#click{
+    text-decoration:none ;
+    color:rgb(9, 164, 220);
+
+}
+/* shop_section */
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    
+}
+.box_section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    background-color: #e2e7e6;
+    padding: 22px 0px 15px;
+    
+
+
+}
+.box_image1{
+    background-image: url("watch.jpg");
+    height: 300px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.box2_image2{
+    background-image: url("shoes.jpg");
+    height: 300px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box3_image{
+    background-image: url("chair.jpg");
+    height: 300px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.box4_image{
+    background-image: url("toothpaste.jpg");
+    height: 300px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.shop{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgb(13, 181, 203);
+}
+.box5_image{
+    background-image: url("speaker.jpg");
+    height: 300px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-size: cover;
+
+}
+.box6_image{
+    background-image: url("tady.jpg");
+    height: 300px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-size: cover;
+
+}
+.box7_image{
+    background-image: url("mobile.jpg");
+    height: 300px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-size: cover;
+}
+.box8_image{
+    height: 140px;
+width: 140px;
+    background-image: url("dining.jpg");
+    margin-left: 15px;
+}
+.box9_image{
+    height: 140px;
+    width:140px;
+        background-image: url("kitchen.jpg");
+    margin-left: 165px;
+}
+.box10{
+    height: 140px;
+    width:140px;
+        background-image: url("Health and Beauty.jpg");
+    margin-top: 20px;
+    background-size: cover;
+    margin-left: 15px;
+}
+.box11{
+    height: 140px;
+    width:140px;
+        background-image: url("home.jpg"); 
+    margin-left: 165px;     
+}
+.footer{
+    height: 60px;
+    background-color:#37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.footer_panel{
+    height: 400px;
+    background-color: #222f3d;
+}
+.last_panel{
+    height: 70px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid white;
+}
+.last_panel a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+.footer_panel{
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+.head{
+    margin-left: 20px;
+}
+.last_pane{
+    height:150px ;
+    background-color: #222f3d;
+    border-top: 2px solid rgb(3, 3, 49);
+}
+.footer_panel2{
+    height: 79px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+}
+.logos{
+margin-left: 300px;
+font-size: 2rem;
+}
